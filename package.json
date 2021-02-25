@@ -31,7 +31,7 @@
     "eject": "react-scripts eject",
     "style-check": "prettier --check",
     "format": "prettier --write .",
-    "start": "env-cmd -f .env.production react-scripts start",
+    "start": "react-scripts start",
     "start:dev": "env-cmd -f .env.development react-scripts start",
     "start:staging": "env-cmd -f .env.staging react-scripts start",
     "build:staging": "env-cmd -f .env.staging npm react-scripts build",
