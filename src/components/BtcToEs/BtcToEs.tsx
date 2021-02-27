@@ -1,9 +1,9 @@
-import axios from 'axios';
+// import axios from 'axios';
 import React, { Component } from 'react';
-import { InputGroup, FormControl, Button, Alert } from 'react-bootstrap';
+import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import { getToken } from '../../API/api';
 
-const apiBaseUrl = 'https://accounts.probit.com/'; 
+// const apiBaseUrl = 'https://accounts.probit.com/'; 
 
 
 export default class extends Component {

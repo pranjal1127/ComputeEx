@@ -1,8 +1,6 @@
-import axios from "axios";
+// import axios from "axios";
 
-let axiosConfig = {
- 
-};
+
 
 export const getToken = async () => {
   const authHeader = 'Basic Yzc5MzJmNzY4MDNmOTkwOTpkY2YxYWRhMTJlMjBlYjU3MGQzYjA1NGY4MWQ3YWNjMg==';
@@ -25,7 +23,7 @@ export const getToken = async () => {
 if (!resp.ok) {
     throw new Error(resp.statusText);
 }
-  console.log("Respobse",resp);
+  console.log("Response",resp);
 
   return resp.json();
 };
